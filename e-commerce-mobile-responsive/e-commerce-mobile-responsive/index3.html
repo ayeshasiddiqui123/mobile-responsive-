@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Mobile App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles3.css" />
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+    <header class="shopping-cart-header">
+        <button class="back-button" onclick="history.back()">
+            &#8592; &nbsp;&nbsp;
+        </button>
+        <span class="title">Shopping cart</span>
+    </header>
+    <!-- --------------------------------------- -->
+    <div class="cart-container">
+        <div class="cart-item">
+            <img src="images/ri2.png" alt="Product Image" />
+            <div class="item-details">
+                <p class="item-title">T-shirts with multiple colors for men</p>
+                <p class="item-desc">Size: medium, Color: blue<br>Seller: Artel Market</p>
+                <div class="qty-price">
+                    <div class="qty-control">
+                        <button>-</button>
+                        <span>2</span>
+                        <button>+</button>
+                    </div>
+                    <span class="price">$78.99</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="images/ri3.png" alt="Product Image" />
+            <div class="item-details">
+                <p class="item-title">Solid Backpack blue jeans large size</p>
+                <p class="item-desc">Size: medium, Color: blue<br>Seller: Artel Market</p>
+                <div class="qty-price">
+                    <div class="qty-control">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                    <span class="price">$78.99</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="images/lastSec.png" alt="Product Image" />
+            <div class="item-details">
+                <p class="item-title">Water boiler black for kitchen, 1200 Watt</p>
+                <p class="item-desc">Size: medium, Color: blue<br>Seller: Artel Market</p>
+                <div class="qty-price">
+                    <div class="qty-control">
+                        <button>-</button>
+                        <span>2</span>
+                        <button>+</button>
+                    </div>
+                    <span class="price">$78.99</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <div><span>Items (3):</span><span>$32.00</span></div>
+            <div><span>Shipping:</span><span>$10.00</span></div>
+            <div><span>Tax:</span><span>$7.00</span></div>
+            <div class="total"><span>Total:</span><span>$220.00</span></div>
+            <button class="checkout-btn">Checkout (3 items)</button>
+        </div>
+    </div>
+
+    <!-- --------------------------------------- -->
+    <div class="saved-container">
+        <h3>Saved for later</h3>
+
+        <div class="saved-card">
+            <img src="images/do2.png" alt="Headphones" />
+            <div class="saved-details">
+                <p class="product-name">Regular Fit Resort Shirt</p>
+                <p class="price">$57.70</p>
+                <div class="btn-group">
+                    <button class="move-btn">Move to cart</button>
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="saved-card">
+            <img src="images/p2two.png" alt="Phone" />
+            <div class="saved-details">
+                <p class="product-name">Regular Fit Resort Shirt</p>
+                <p class="price">$57.70</p>
+                <div class="btn-group">
+                    <button class="move-btn">Move to cart</button>
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="saved-card">
+            <img src="images/page2five.png" alt="Watch" />
+            <div class="saved-details">
+                <p class="product-name">Regular Fit Resort Shirt</p>
+                <p class="price">$57.70</p>
+                <div class="btn-group">
+                    <button class="move-btn">Move to cart</button>
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- --------------------------------------- -->
+<br><hr><br>
+    <!-- footer  section start -->
+    <!-- Footer Section -->
+    <footer style="background-color: #f1f3f5; padding: 30px 15px; font-family: Arial, sans-serif;">
+        <!-- Newsletter -->
+        <div style="text-align: center; margin-bottom: 30px;">
+            <h3 style="margin: 0 0 10px;">Subscribe on our newsletter</h3>
+            <p style="margin: 0 0 15px; color: #555;">Get daily news on upcoming offers from many suppliers all over the
+                world</p>
+            <form style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+                <input type="email" placeholder="Email"
+                    style="padding: 10px; width: 250px; border-radius: 5px; border: 1px solid #ccc;" />
+                <button type="submit"
+                    style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px;">Subscribe</button>
+            </form>
+        </div>
+
+        <!-- Footer Main Content -->
+        <div class="footer-main"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 30px; margin-top: 30px;">
+
+            <!-- Brand Info -->
+            <div>
+                <h2 style="color: #007bff; margin-bottom: 5px;"> <img src="images/logo-symbol.png" alt=""> Brand</h2>
+                <p style="color: #555;">Best information about the company goes here but now lorem ipsum is</p>
+                <div style="display: flex; gap: 10px; margin-top: 10px;">
+                    <div style="display: flex; gap: 10px; margin-top: 10px;">
+                        <a href="#"><i class="fab fa-facebook-f"
+                                style="color: #BDC4CD; font-size: 20px; padding: 10px; border-radius: 50%; background-color: white;"></i></a>
+                        <a href="#"><i class="fab fa-twitter"
+                                style="color: #BDC4CD; font-size: 20px;padding: 10px; border-radius: 50%; background-color: white;"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"
+                                style="color: #BDC4CD; font-size: 20px;padding: 10px; border-radius: 50%; background-color: white;"></i></a>
+                        <a href="#"><i class="fas fa-envelope"
+                                style="color: #BDC4CD; font-size: 20px;padding: 10px; border-radius: 50%; background-color: white;"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Footer Links -->
+            <div>
+                <h4>About</h4>
+                <ul style="list-style: none; padding: 0; color: #555; margin-bottom: 5px;">
+                    <li>About Us</li>
+                    <li>Find store</li>
+                    <li>Categories</li>
+                    <li>Blogs</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Partnership</h4>
+                <ul style="list-style: none; padding: 0; color: #555;margin-bottom: 5px;">
+                    <li>About Us</li>
+                    <li>Find store</li>
+                    <li>Categories</li>
+                    <li>Blogs</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Information</h4>
+                <ul style="list-style: none; padding: 0; color: #555;margin-bottom: 5px;">
+                    <li>Help Center</li>
+                    <li>Money Refund</li>
+                    <li>Shipping</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>For users</h4>
+                <ul style="list-style: none; padding: 0; color: #555;margin-bottom: 5px;">
+                    <li>Login</li>
+                    <li>Register</li>
+                    <li>Settings</li>
+                    <li>My Orders</li>
+                </ul>
+            </div>
+
+            <!-- Get App -->
+            <div>
+                <h4>Get app</h4>
+                <a href="#"><img src="images/getApp1.png" alt="App Store" width="120"
+                        style="margin-bottom: 10px;" /></a><br />
+                <a href="#"><img src="images/getApp2.png" alt="Google Play" width="120" /></a>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div style="text-align: center; padding: 20px 0; font-size: 14px; color: #999;">
+            © 2023 Ecommerce.
+            <span style="float: right; display: inline-flex; align-items: center; gap: 5px;">
+                <img src="images/usFlag.png" width="20" /> English ⌄
+            </span>
+        </div>
+    </footer>
+    <!-- --------------------------------------- -->
+
+
+
+
+</body>
+
+</html>
